@@ -1,0 +1,61 @@
+version: "2"
+services:
+    base:
+        build:
+            context: base
+        image: basedemo:latest
+        container_name: base
+    backend:
+        build: 
+            context: backend
+        container_name: backend
+        ports:
+          - "81:8081"
+        restart: unless-stopped
+        links: 
+          - base
+    
+    frontend:
+        build: 
+            context: frontend
+        container_name: frontend
+        depends_on:
+          - backend
+        environment:
+          - BACKEND_HOSTNAME=backend
+        ports:
+          - "80:8080"
+        restart: unless-stopped
+        links: 
+          - base
+          
+    seleniumhub:
+        image: selenium/hub
+        container_name: seleniumhub
+        ports:
+          - 4444:4444
+        environment:
+          GRID_MAX_SESSION: 10
+    firefoxnode:
+        image: selenium/node-firefox-debug
+        container_name: firefoxnode
+        ports:
+          - 5901:5900
+        depends_on:
+          - seleniumhub
+        environment:
+            HUB_HOST: seleniumhub
+            NODE_MAX_INSTANCES: 5
+            NODE_MAX_SESSION: 5
+    chromenode:
+        image: selenium/node-chrome-debug
+        container_name: chromenode
+        ports:
+          - 5902:5900
+        depends_on:
+          - seleniumhub
+        environment:
+          HUB_HOST: seleniumhub
+          NODE_MAX_INSTANCES: 5
+          NODE_MAX_SESSION: 5
+          
