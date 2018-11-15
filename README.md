@@ -7,7 +7,7 @@ y en las demás carpetas los códigos fuente usados para las demos.
 Ésto se complementa con los videos de cada una de las charlas que se encuentran 
 en el perfil de globant facebook https://www.facebook.com/pg/Globant/videos/?ref=page_internal.
 
-Aquí también están los enlaces a cada video.
+Aquí también están los enlaces a cada video.<br />
 https://goo.gl/jZHBfJ<br />
 https://goo.gl/AXAGvY<br />
 https://goo.gl/yiamHJ<br />

@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automated Test Suite" parallel="false">
+
+    <parameter name="videoName" value="Metallica One Video Oficial" />
+    <parameter name="channelName" value="MetallicaTV" />
+
+    <test name="Smoke Test Play Video" parallel="false" >
+        <classes>
+            <class name="com.google.android.youtube.automation.test.android.SmokeTestPlayVideo"/>
+        </classes>
+    </test>
+
+</suite>
