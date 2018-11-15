@@ -8,12 +8,12 @@ y en las demás carpetas los códigos fuente usados para las demos.
 en el perfil de globant facebook https://www.facebook.com/pg/Globant/videos/?ref=page_internal.
 
 Aquí también están los enlaces a cada video.
-https://goo.gl/jZHBfJ
-https://goo.gl/AXAGvY
-https://goo.gl/yiamHJ
-https://goo.gl/98XVCQ
-https://goo.gl/5fKKX4
-https://goo.gl/HGxAk9
-https://goo.gl/K845rC
-https://goo.gl/ZjHwXA
-https://goo.gl/rBRNmv
+https://goo.gl/jZHBfJ<br />
+https://goo.gl/AXAGvY<br />
+https://goo.gl/yiamHJ<br />
+https://goo.gl/98XVCQ<br />
+https://goo.gl/5fKKX4<br />
+https://goo.gl/HGxAk9<br />
+https://goo.gl/K845rC<br />
+https://goo.gl/ZjHwXA<br />
+https://goo.gl/rBRNmv<br />
