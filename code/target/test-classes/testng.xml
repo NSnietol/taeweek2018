@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd">
+<suite name="TestNG Demo" thread-count="1">
+    <test name="Todo Demo">
+        <groups>
+            <run>
+                <include name="cucumber"></include>
+                <include name="todo"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="runners.TestRunner" />
+        </classes>
+    </test>
+</suite>
